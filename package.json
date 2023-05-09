@@ -1,0 +1,46 @@
+{
+  "name": "cequience",
+  "version": "1.0.0",
+  "description": "Backend code for Cequience",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "alan_v",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1175.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^11.0.0",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.2.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.7",
+    "node-geocoder": "^4.2.0",
+    "nodemon": "^2.0.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "ndb": "^1.1.5",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
