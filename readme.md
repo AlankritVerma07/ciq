@@ -1,6 +1,6 @@
 # Ciquence Backend Code
 
-# Maintained by Alankrit Verma , Viashak Prabhakaran , Anmol Zakie
+
 
 [![node version](https://img.shields.io/badge/node-~v16.13.0-green)]()
 [![npm version](https://img.shields.io/badge/npm-~v8.1.0-blue)]()
